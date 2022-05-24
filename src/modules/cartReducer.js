@@ -1,4 +1,5 @@
 // action
+// type & action creator
 const ADD = 'cartReducer/ADD';
 const DELETE = 'cartReducer/DELETE';
 const INCREASE = 'cartReducer/INCREASE';
@@ -24,15 +25,16 @@ export const decreaseItem = (item) => ({
     payload: item
 })
 
-// reducer
+// init
 const initialState = {
     cart: [],
     totalPrice: 0
 };
 
+// reducer
 export default function cartReducer(state = initialState, action) {
     switch(action.type) {
-        case ADD :
+        case ADD : // 장바구니에 상품 추가
             const cartItem = state.cart.find(item => item.id === action.payload.id);
 
             if(cartItem) {
@@ -53,14 +55,14 @@ export default function cartReducer(state = initialState, action) {
                 totalPrice: state.totalPrice + action.payload.price
             };
 
-        case DELETE :
+        case DELETE : // 장바구니에서 상품 삭제
             return {
                 ...state,
                 cart: state.cart.filter(item => item.id !== action.payload.id),
                 totalPrice: state.totalPrice - (action.payload.price * action.payload.quantity)
             };
 
-        case INCREASE :
+        case INCREASE : // 수량 증가
             const increaseItem = state.cart.find(item => item.id === action.payload.id);
 
             increaseItem && increaseItem.quantity++;
@@ -71,7 +73,7 @@ export default function cartReducer(state = initialState, action) {
                 totalPrice: state.totalPrice + action.payload.price
             };
 
-        case DECREASE :
+        case DECREASE : // 수량 감소
             const decreaseItem = state.cart.find(item => item.id === action.payload.id);
 
             if (decreaseItem && decreaseItem.quantity > 1) {
