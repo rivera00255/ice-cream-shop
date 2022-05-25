@@ -1,0 +1,58 @@
+[
+    {
+        "id" : 1,
+        "name" : "바닐라",
+        "price" : 13900,
+        "size" : "pint",
+        "url" : "vanilla.png"
+    },
+    {
+        "id" : 2,
+        "name" : "벨지안 스트로베리",
+        "price" : 13900,
+        "size" : "pint",
+        "url" : "belgian_strawberry.jpg"
+    },
+    {
+        "id" : 3,
+        "name" : "벨지안 초콜릿",
+        "price" : 5200,
+        "size" : "minicup",
+        "url" : "choco.png"
+    },
+    {
+        "id" : 4,
+        "name" : "허니&그레이프",
+        "price" : 5200,
+        "size" : "minicup",
+        "url" : "honey.jpg"
+    },
+    {
+        "id" : 5,
+        "name" : "그린티",
+        "price" : 5200,
+        "size" : "bar",
+        "url" : "green.png"
+    },
+    {
+        "id" : 6,
+        "name" : "마카다미아넛",
+        "price" : 5200,
+        "size" : "bar",
+        "url" : "nut.png"
+    },
+    {
+        "id" : 7,
+        "name" : "솔티드카라멜",
+        "price" : 13900,
+        "size" : "pint",
+        "url" : "solt.png"
+    },
+    {
+        "id" : 8,
+        "name" : "아이리시위스키",
+        "price" : 13900,
+        "size" : "pint",
+        "url" : "irish.jpg"
+    }
+]
