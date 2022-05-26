@@ -1,8 +1,5 @@
 ## Haagendazs Ice Cream Shop
-```
-npm install
-npm start
-```
+[Link →](https://rivera00255.github.io/ice-cream-shop)
 
 #### Redux
 redux ducks 패턴 적용   

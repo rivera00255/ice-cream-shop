@@ -78,7 +78,7 @@ function Header() {
           <Container>
             <NavContainer>
                 <Logo onClick={onClick}>
-                  <Image src='../assets/images/main/logo.png' alt='logo' />
+                  <Image src='https://rivera00255.github.io/ice-cream-shop/assets/images/main/logo.png' alt='logo' />
                 </Logo>
                 <LocalNav>
                   <Ul>

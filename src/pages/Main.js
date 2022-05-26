@@ -52,7 +52,7 @@ const Text = styled.div`
 const Banner = styled.div`
     width: 100%;
     height: 320px;
-    background: url('../assets/images/main/banner_bg.jpg') no-repeat;
+    background: url('https://rivera00255.github.io/ice-cream-shop/assets/images/main/banner_bg.jpg') no-repeat;
     background-size: cover;
     margin-bottom: 40px;
 `;
