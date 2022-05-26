@@ -113,7 +113,7 @@ function Product() {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        axios.get('http://localhost:3000/data/data.json')
+        axios.get('https://rivera00255.github.io/ice-cream-shop/data/data.json')
         .then(res => {
             setProduct(res.data);
         }).catch(err => console.log(err));
@@ -133,7 +133,7 @@ function Product() {
                         product &&
                         product.map(item => (
                             <Item key={item.id}>
-                                <Image src={`../assets/images/product/${item.url}`} alt='ice cream' />
+                                <Image src={`https://rivera00255.github.io/ice-cream-shop/assets/images/product/${item.url}`} alt='ice cream' />
                                 <Cover>
                                     <p>
                                         <strong>{item.name}</strong><br/>

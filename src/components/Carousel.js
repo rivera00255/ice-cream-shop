@@ -75,17 +75,17 @@ function Carousel() {
     {
       id : 1,
       txt : 'Thät’s Dazs',
-      url : '../assets/images/main/main_banner_01.jpg'
+      url : 'https://rivera00255.github.io/ice-cream-shop/assets/images/main/main_banner_01.jpg'
     },
     {
       id : 2,
       txt : 'Order online from a Shop',
-      url : '../assets/images/main/main_banner_02.jpeg'
+      url : 'https://rivera00255.github.io/ice-cream-shop/assets/images/main/main_banner_02.jpeg'
     },
     {
       id : 3,
       txt : 'Find Your Flavor',
-      url : '../assets/images/main/main_banner_03.jpg'
+      url : 'https://rivera00255.github.io/ice-cream-shop/assets/images/main/main_banner_03.jpg'
     }
   ];
 

@@ -106,7 +106,7 @@ function Main() {
     }
 
     useEffect(() => {
-        axios.get('http://localhost:3000/data/data.json')
+        axios.get('https://rivera00255.github.io/ice-cream-shop/data/data.json')
         .then(res => setProduct(res.data.slice(0, 4)))
         .catch(err => console.log(err));
     }, []);
@@ -121,7 +121,7 @@ function Main() {
                         product &&
                         product.map(item => (
                             <Product onClick={onClick}>
-                                <Image src={`../assets/images/product/${item.url}`} alt='ice cream' />
+                                <Image src={`https://rivera00255.github.io/ice-cream-shop/assets/images/product/${item.url}`} alt='ice cream' />
                                 <Text>
                                     {item.name}
                                 </Text>
@@ -148,7 +148,7 @@ function Main() {
                     {
                         ingredientArr.map(ingredient => (
                             <Ingredient key={ingredient}>
-                                <IngredientImg src={`../assets/images/main/ingredient${ingredient}.jpg`} alt='ingredient' />
+                                <IngredientImg src={`https://rivera00255.github.io/ice-cream-shop/assets/images/main/ingredient${ingredient}.jpg`} alt='ingredient' />
                             </Ingredient>
                         ))
                     }
