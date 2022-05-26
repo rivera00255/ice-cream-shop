@@ -122,7 +122,7 @@ function Order() {
                                         </p>
                                     </Desc>
                                     <Image>
-                                        <img src={`../assets/images/product/${item.url}`} alt='product' />
+                                        <img src={`https://rivera00255.github.io/ice-cream-shop/assets/images/product/${item.url}`} alt='product' />
                                     </Image>
                                 </ItemInfo>
                                 <OrderInfo>
